@@ -6,8 +6,8 @@ Use following command to build the EFI.
 
 
 ```bash
-git clone This warehouse
-cd Go to the Auto directory under this warehouse
+git clone https://github.com/TokiharaSay/ASRock-B460M-ITX-ac-Hackintosh
+cd AUSU-ROG-B460i-Hackintosh
 chmod +x **/*.sh
 ./build.sh
 ```

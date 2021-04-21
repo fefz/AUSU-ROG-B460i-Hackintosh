@@ -104,12 +104,14 @@ function h_or_g() {
     hgs=( "head -n 1" )
   elif [[ "$1" == "cholonam/Sinetek-rtsx" ]]; then
     hgs=( "grep -m 1 Sinetek-rtsx-" )
-  elif [[ "$1" == "itlwm" ]]; then
-    hgs=( "grep -m 1 AirportItlwm-Big_Sur"
-          "grep -m 1 AirportItlwm-Catalina"
-          "grep -m 1 AirportItlwm-High_Sierra"
-          "grep -m 1 AirportItlwm-Mojave"
-        )
+  #elif [[ "$1" == "itlwm" ]]; then
+  #  hgs=( "grep -m 1 AirportItlwm-Big_Sur"
+  #        "grep -m 1 AirportItlwm-Catalina"
+  #        "grep -m 1 AirportItlwm-High_Sierra"
+  #        "grep -m 1 AirportItlwm-Mojave"
+  #      )
+  elif [[ "$1" == "zhen-zen/YogaSMC" ]]; then
+    hgs=( "grep -m 1 YogaSMC-Release.zip" )
   else
     hgs=( "grep -m 1 RELEASE" )
   fi
